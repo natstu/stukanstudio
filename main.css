@@ -168,6 +168,10 @@ a {
     border-radius: 50%;
     margin: 10px;
 }
+#NSphoto {
+    height: 100px;
+    width: 100px;
+}
 #NSphoto,
 .social > a > img,
 .skill-icon {
@@ -253,6 +257,12 @@ section > p {
 @media screen and (min-width: 770px) and (max-width: 1024px) {
     .prj-Pdf {
         height: 350px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #NSphoto {
+        height: 130px;
+        width: 130px;
     }
 }
 /*CONTACT-ME STYLES*/
